@@ -23,50 +23,7 @@ public class Euler1 {
 
 	}
 	
-	public void testAll(){
-		
-		//Sum of Multiples
-		System.out.println("Sum of Multiples for 10: "+getSumOfMultiples(10));
-		System.out.println("Sum of Multiples for 1000: "+getSumOfMultiples(1000));
-		
-		//Fibonacci
-		/*
-		System.out.println("Sum of Even Fibonacci for 1: "+s(1));
-		System.out.println("Sum of Even Fibonacci for 2: "+s(2));
-		System.out.println("Sum of Even Fibonacci for 3: "+s(3));
-		System.out.println("Sum of Even Fibonacci for 4: "+s(4));
-		System.out.println("Sum of Even Fibonacci for 5: "+s(5));
-		System.out.println("Sum of Even Fibonacci for 6: "+s(6));
-		System.out.println("Sum of Even Fibonacci for 7: "+s(7));
-		System.out.println("Sum of Even Fibonacci for 8: "+s(8));
-		System.out.println("Sum of Even Fibonacci for first 9 terms: "+s(9));
-		*/
-		System.out.println("Sum of Even Fibonacci for first 10 Fibonacci terms: "+s(10));		
-		//System.out.println("Sum of Even Fibonacci for first 100 terms: "+s(100));
-		
-		//Largest Prime
-		/*
-		System.out.println("LargestPrimeFactor of 1: "+largestPrimeFactor(1));
-		System.out.println("LargestPrimeFactor of 2: "+largestPrimeFactor(2));
-		System.out.println("LargestPrimeFactor of 3: "+largestPrimeFactor(3));
-		System.out.println("LargestPrimeFactor of 5: "+largestPrimeFactor(5));
-		System.out.println("LargestPrimeFactor of 6: "+largestPrimeFactor(6));
-		System.out.println("LargestPrimeFactor of 10: "+largestPrimeFactor(10));
-		System.out.println("LargestPrimeFactor of 7: "+largestPrimeFactor(7));
-		System.out.println("LargestPrimeFactor of 36: "+largestPrimeFactor(36));
-		System.out.println("LargestPrimeFactor of 13: "+largestPrimeFactor(13));
-		System.out.println("LargestPrimeFactor of 54: "+largestPrimeFactor(54));
-		System.out.println("LargestPrimeFactor of 13195: "+largestPrimeFactor(13195));
-		*/
-		System.out.println("LargestPrimeFactor of 600851475143: "+largestPrimeFactor(600851475143.0));
-		
-	
-		
-		System.out.println("Sum of first 10 digits of total sum: "+getSumOfFirstTen("fifties.txt"));
-			
 
-	}
-	
 	/**
 	 * Problem 1: MULTIPLES OF 3 AND 5
 	 * If we list all the natural numbers below 10 
@@ -208,5 +165,49 @@ public class Euler1 {
 	 * 	What is the sum of the numbers on the diagonals in a 1001 by 1001
 	 *  spiral formed in the same way?	 	
 	 */
+	
+	public void testAll(){
+		
+		//Sum of Multiples
+		System.out.println("Sum of Multiples for 10: "+getSumOfMultiples(10));
+		System.out.println("Sum of Multiples for 1000: "+getSumOfMultiples(1000));
+		
+		//Fibonacci
+		/*
+		System.out.println("Sum of Even Fibonacci for 1: "+s(1));
+		System.out.println("Sum of Even Fibonacci for 2: "+s(2));
+		System.out.println("Sum of Even Fibonacci for 3: "+s(3));
+		System.out.println("Sum of Even Fibonacci for 4: "+s(4));
+		System.out.println("Sum of Even Fibonacci for 5: "+s(5));
+		System.out.println("Sum of Even Fibonacci for 6: "+s(6));
+		System.out.println("Sum of Even Fibonacci for 7: "+s(7));
+		System.out.println("Sum of Even Fibonacci for 8: "+s(8));
+		System.out.println("Sum of Even Fibonacci for first 9 terms: "+s(9));
+		*/
+		System.out.println("Sum of Even Fibonacci for first 10 Fibonacci terms: "+s(10));		
+		//System.out.println("Sum of Even Fibonacci for first 100 terms: "+s(100));
+		
+		//Largest Prime
+		/*
+		System.out.println("LargestPrimeFactor of 1: "+largestPrimeFactor(1));
+		System.out.println("LargestPrimeFactor of 2: "+largestPrimeFactor(2));
+		System.out.println("LargestPrimeFactor of 3: "+largestPrimeFactor(3));
+		System.out.println("LargestPrimeFactor of 5: "+largestPrimeFactor(5));
+		System.out.println("LargestPrimeFactor of 6: "+largestPrimeFactor(6));
+		System.out.println("LargestPrimeFactor of 10: "+largestPrimeFactor(10));
+		System.out.println("LargestPrimeFactor of 7: "+largestPrimeFactor(7));
+		System.out.println("LargestPrimeFactor of 36: "+largestPrimeFactor(36));
+		System.out.println("LargestPrimeFactor of 13: "+largestPrimeFactor(13));
+		System.out.println("LargestPrimeFactor of 54: "+largestPrimeFactor(54));
+		System.out.println("LargestPrimeFactor of 13195: "+largestPrimeFactor(13195));
+		*/
+		System.out.println("LargestPrimeFactor of 600851475143: "+largestPrimeFactor(600851475143.0));
+		
+	
+		
+		System.out.println("Sum of first 10 digits of total sum: "+getSumOfFirstTen("fifties.txt"));
+			
 
+	}
+	
 }
